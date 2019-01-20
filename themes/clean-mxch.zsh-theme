@@ -1,7 +1,7 @@
-if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
+if [ $UID -eq 0 ]; then NCOLOR="green"; else NCOLOR="white"; fi
 
-PROMPT='%{$fg[$NCOLOR]%}%B%n%b%{$reset_color%}@%{$fg[red]%}%B%m%b%{$reset_color%} '
-RPROMPT='[%*]'
+PROMPT='%{$fg[$NCOLOR]%}%B%n%b%{$reset_color%}@%{$fg[green]%}%B%m%b%{$reset_color%} '
+# RPROMPT='[%*]'
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
